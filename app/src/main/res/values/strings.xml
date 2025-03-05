@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">test</string>
+<!--    <string name="nom">nom</string>-->
+<!--    <string name="editEmailAddress">Email</string>-->
+<!--    <string name="editPhone">phone</string>-->
+<!--    <string name="adresse">adresse</string>-->
+    <array name="villes">
+        <item>marrakech</item>
+        <item>settat</item>
+        <item>casablanca</item>
+    </array>
+</resources>

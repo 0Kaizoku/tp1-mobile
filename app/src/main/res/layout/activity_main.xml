@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:background="#009688"
+        app:itemBackground="@color/design_default_color_primary" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="INFORMATIONS"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+    </com.google.android.material.navigation.NavigationView>
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Full Name"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <EditText
+        android:id="@+id/editnom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:text=""
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Email"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <EditText
+        android:id="@+id/editEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text=""
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Phone" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:text=""
+        android:inputType="phone"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/editaddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Ville" />
+
+    <Spinner
+        android:id="@+id/villes"
+        android:layout_width="415dp"
+        android:layout_height="48dp"
+        android:entries="@array/villes"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#009688"
+        android:text="SEND"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+</LinearLayout>
